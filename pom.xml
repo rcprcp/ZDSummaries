@@ -14,8 +14,8 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <commons-lang3.version>3.9</commons-lang3.version>
     <commons-csv.version>1.7</commons-csv.version>
-    <commons-codec.version>1.10</commons-codec.version>
-    <commons-io.version>2.6</commons-io.version>
+    <commons-codec.version>1.13</commons-codec.version>
+    <commons-io.version>2.7</commons-io.version>
     <slf4jVersion>1.8.0-beta2</slf4jVersion>
     <fully.qualified.main.class>com.streamsets.zdsummaries.ZDSummaries</fully.qualified.main.class>
   </properties>
@@ -30,12 +30,12 @@
     <dependency>
       <groupId>mysql</groupId>
       <artifactId>mysql-connector-java</artifactId>
-      <version>8.0.21</version>
+      <version>8.0.31</version>
     </dependency>
     <dependency>
       <groupId>org.json</groupId>
       <artifactId>json</artifactId>
-      <version>20160212</version>
+      <version>20230227</version>
     </dependency>
 
     <dependency>
@@ -67,13 +67,13 @@
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
-      <version>42.2.16</version>
+      <version>42.3.3</version>
     </dependency>
 
     <dependency>
       <groupId>com.cloudbees.thirdparty</groupId>
       <artifactId>zendesk-java-client</artifactId>
-      <version>0.12.0</version>
+      <version>0.19.0</version>
     </dependency>
   </dependencies>
 
